@@ -9,12 +9,14 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.codepath.apps.restclienttemplate.models.Tweet;
 
 import java.util.List;
 
 public class TweetAdapter extends  RecyclerView.Adapter<TweetAdapter.ViewHolder>{
     private List<Tweet> mTweet;
+    Context context;
     public TweetAdapter(List<Tweet> tweets){
         this.mTweet = tweets;
     }
@@ -36,6 +38,7 @@ public class TweetAdapter extends  RecyclerView.Adapter<TweetAdapter.ViewHolder>
         Tweet tweet = mTweet.get(position);
         holder.tvUserName.setText(tweet.user.name);
         holder.tvBody.setText(tweet.body);
+        Glide.with(context).load(tweet.user.profilImageUrl).into(holder.ivProfileImage);
 
     }
 
