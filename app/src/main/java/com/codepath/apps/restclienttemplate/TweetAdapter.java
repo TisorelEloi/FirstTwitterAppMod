@@ -24,7 +24,7 @@ public class TweetAdapter extends  RecyclerView.Adapter<TweetAdapter.ViewHolder>
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        Context context  = parent.getContext();
+        context  = parent.getContext();
         LayoutInflater  inflater = LayoutInflater.from(context);
         View tweetView = inflater.inflate(R.layout.item_tweet, parent, false);
         ViewHolder viewHolder = new ViewHolder(tweetView);
