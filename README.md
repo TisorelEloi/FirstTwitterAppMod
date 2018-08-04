@@ -1,19 +1,19 @@
 # Project 4 - * Nom de l'application ici *
 
-** Nom de votre application ** est une application Android qui permet à un utilisateur de voir la maison et mentionne les délais, afficher les profils d'utilisateur avec les horaires de l'utilisateur, ainsi que composer et poster un nouveau tweet. L'application utilise [Twitter REST API] (https://developer.twitter.com/fr/docs/api-reference-index).
+** Twitter App ** est une application Android qui permet à un utilisateur de voir la maison et mentionne les délais, afficher les profils d'utilisateur avec les horaires de l'utilisateur, ainsi que composer et poster un nouveau tweet. L'application utilise [Twitter REST API] (https://developer.twitter.com/fr/docs/api-reference-index).
 
-Temps passé: ** X ** heures passées au total
+Temps passé: ** 10 ** heures passées au total
 
 ## Histoires d'utilisateurs
 
 La fonctionnalité ** requise ** suivante est terminée:
 
-* [] L'application inclut ** toutes les user stories requises ** à partir du client Twitter de la semaine 3
-* [] L'utilisateur peut ** basculer entre les modes Chronologie et Mention à l'aide des onglets **
-  * [] L'utilisateur peut afficher les tweets de sa timeline à domicile.
-  * [] L'utilisateur peut voir les mentions récentes de son nom d'utilisateur.
-* [] L'utilisateur peut naviguer jusqu'à ** afficher son propre profil **
-  * [] L'utilisateur peut voir l'image, le slogan, le nombre de suiveurs, le nombre de suiveurs et les tweets sur leur profil.
+* [X] L'application inclut ** toutes les user stories requises ** à partir du client Twitter de la semaine 3
+* [X] L'utilisateur peut ** basculer entre les modes Chronologie et Mention à l'aide des onglets **
+  * [X] L'utilisateur peut afficher les tweets de sa timeline à domicile.
+  * [X] L'utilisateur peut voir les mentions récentes de son nom d'utilisateur.
+* [X] L'utilisateur peut naviguer jusqu'à ** afficher son propre profil **
+  * [X] L'utilisateur peut voir l'image, le slogan, le nombre de suiveurs, le nombre de suiveurs et les tweets sur leur profil.
 * [] L'utilisateur peut ** cliquer sur l'image du profil ** dans n'importe quel tweet pour voir ** le profil d'un autre utilisateur **.
  * [] L'utilisateur peut voir l'image, le slogan, le nombre de suiveurs, le nombre de suiveurs et les tweets de l'utilisateur cliqué.
  * [] La vue du profil inclut la chronologie de cet utilisateur
